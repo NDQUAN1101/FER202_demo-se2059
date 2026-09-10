@@ -1,7 +1,7 @@
 .container {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 0 15px;
+  max-width: 650px;
+  margin: 25px auto;
+  padding: 0 15px 40px;
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
 }
@@ -12,6 +12,39 @@ h2 {
   color: #222;
 }
 
+/* Tab Bar */
+.tab-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 8px;
+}
+
+.tab-item {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #495057;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tab-item:hover {
+  background-color: #e9ecef;
+}
+
+.tab-item.active {
+  background-color: #0d6efd;
+  color: #ffffff;
+  border-color: #0d6efd;
+}
+
+/* Cards */
 .card {
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -24,7 +57,7 @@ h2 {
 .card h3 {
   margin-top: 0;
   margin-bottom: 12px;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: #0d6efd;
   border-bottom: 1px solid #eee;
   padding-bottom: 6px;
