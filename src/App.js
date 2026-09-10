@@ -51,7 +51,7 @@ function App() {
 
   return (
     <div className="container">
-      <h2>BÀI TẬP FER202: EXERCISE 4 &amp; ES6</h2>
+      <h2>Exercise 4 &amp; ES6</h2>
 
       {/* Tabs chuyển đổi giữa 2 bài */}
       <div className="tab-bar">
